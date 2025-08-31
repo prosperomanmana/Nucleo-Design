@@ -19,7 +19,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #121212;
+    /* Fundo preto com textura sutil de couro escuro */
+    background-color: #000000; /* Preto puro */
+    background-image: url('https://www.transparenttextures.com/patterns/dark-leather.png');
     color: #EAEAEA;
     overflow-x: hidden;
 }
@@ -127,6 +129,39 @@ section {
     margin-bottom: 3rem;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+/* Seção CTA */
+#cta {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 4rem 2rem;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+#cta h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #121212;
+    padding: 0.8rem 2.5rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: transparent;
+    color: #fff;
 }
 
 /* Seção Sobre */
@@ -272,7 +307,7 @@ footer {
 
 .footer-links a {
     color: #888;
-    font-weight: bold;
+    font-size: 1.5rem; /* Aumenta o tamanho do ícone */
     transition: color 0.3s ease;
 }
 
