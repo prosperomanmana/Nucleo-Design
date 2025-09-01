@@ -23,6 +23,11 @@
     box-sizing: border-box;
 }
 
+::selection{
+    background-color: #EAEAEA;
+    color: var(--paleta-roxo-200);
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     /* Fundo preto com textura sutil de couro escuro */
